@@ -15,7 +15,7 @@ void push(int x)
 
 int pop()
 {
-    int tmp = stk[tt];
+    int tmp = stk[tt]; 
     tt--;
     return tmp;
 }
