@@ -53,8 +53,10 @@ int main()
         {
             int k;
             cin >> k;
-            if(!k) head = ne[head];
-            del(k - 1);
+            if(!k) 
+                head = ne[head];
+            else
+                del(k - 1);
         }
         else
         {
