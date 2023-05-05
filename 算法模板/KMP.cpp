@@ -13,7 +13,7 @@ int main()
 {
     cin >> n >> P + 1 >> m>> S + 1;
     
-    for(int i = 2,j = 0;i <= m;i++)
+    for(int i = 2,j = 0;i <= m;i++) 
     {
         while(j && P[i] != P[j+1]) j = ne[j];
         if(P[i] == P[j + 1]) j++;
