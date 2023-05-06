@@ -13,7 +13,7 @@ int find(int x)
     if(x != p[x]) p[x] = find(p[x]);
     return p[x];
 }
-
+ 
 
 int main()
 {
